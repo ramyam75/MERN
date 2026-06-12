@@ -1,5 +1,5 @@
-const a =10
-const b=20
+var a =10
+var b=20
 //Addition
 console.log (a+b);
 //subtraction
@@ -12,3 +12,19 @@ console.log (a/b);
 console.log (a%b);
 //exponentiation
 console.log (a**b);
+
+//assignment operators
+console.log (a+=20);
+console.log (a-=b);
+console.log (a*=b);
+console.log (a/=b);
+console.log (a%=b);
+console.log (a**=b);
+
+//comparison operators
+console.log (a==b);
+console.log (a!=b); 
+console.log (a>b);
+console.log (a<b);
+console.log (a>=b);
+console.log (a<=b); 
