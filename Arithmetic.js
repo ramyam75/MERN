@@ -28,3 +28,12 @@ console.log (a>b);
 console.log (a<b);
 console.log (a>=b);
 console.log (a<=b); 
+
+//Logical Operators
+console.log("Logical Operators");
+console.log(a>5 && b>5);
+console.log(a<5 && b<5);
+console.log(a<5 || b<5);
+console.log(a>5 || b<5);
+console.log(!(a>5));
+
