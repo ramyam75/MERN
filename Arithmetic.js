@@ -37,3 +37,14 @@ console.log(a<5 || b<5);
 console.log(a>5 || b<5);
 console.log(!(a>5));
 
+//unary operators
+console.log("Unary Operators");
+console.log(++a);
+console.log(--b);
+console.log(a++);
+console.log(b--);
+
+//ternary operator
+console.log("Ternary Operator");
+var result = (a > b) ? "a is greater than b" : "b is greater than a";
+console.log(result);
