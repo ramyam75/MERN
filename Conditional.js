@@ -1,3 +1,4 @@
+console.log("if-else statement");
 var light = "Green";
 
 if (light == "Green") {
@@ -13,9 +14,9 @@ else {
     console.log("Invalid traffic light");
 }
 console.log("switch statement");
-var light = "Green";
+let signal = "Green";
 
-switch (light) {
+switch (signal) {
     case "Green":
         console.log("Go!");
         break;
