@@ -12,3 +12,19 @@ else if (light == "Red") {
 else {
     console.log("Invalid traffic light");
 }
+console.log("switch statement");
+var light = "Green";
+
+switch (light) {
+    case "Green":
+        console.log("Go!");
+        break;
+    case "Yellow":
+        console.log("Slow down!");
+        break;
+    case "Red":
+        console.log("Stop!");
+        break;
+    default:
+        console.log("Invalid traffic light");
+}
